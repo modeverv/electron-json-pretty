@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>JSON整形</title>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <link rel="stylesheet" id="twentytwelve-style-css" href="style.css"/>
+  </head>
+  <body>
+    <h1>JSON整形</h1>
+    <p></p>
+    <textarea id="area">
+{"gegge":1,"gge":2}
+    </textarea>
+    <div id="button-area">
+      <button id="process" class="myButton" type="button">process</button>
+    </div>
+    <pre id="out"></pre>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
